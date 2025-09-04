@@ -1,2 +1,3 @@
 # TicTacToc
-Juego en Blockchain
+Juego en blockchain 
+Adrianan
