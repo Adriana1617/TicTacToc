@@ -66,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".git/contracts/TicTacToe.sol": "TicTacToc"
+			"contracts/TicTacToe.sol": "TicTacToc"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -80,7 +80,7 @@
 		"remappings": []
 	},
 	"sources": {
-		".git/contracts/TicTacToe.sol": {
+		"contracts/TicTacToe.sol": {
 			"keccak256": "0x3ac9de07af3aedf228d1d53d45bb473179820d2642e38c6ebba07296372ee250",
 			"license": "GLP-3.0",
 			"urls": [
