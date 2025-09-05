@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "jug1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "jug2",
+						"type": "address"
+					}
+				],
+				"name": "crearPartida",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idPartida",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "horizontal",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "vertical",
+						"type": "uint256"
+					}
+				],
+				"name": "jugar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/contracts/TicTacToe.sol": "TicTacToc"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/contracts/TicTacToe.sol": {
+			"keccak256": "0x3ac9de07af3aedf228d1d53d45bb473179820d2642e38c6ebba07296372ee250",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://45984377e80e5a936614e5fc71e7b592179185f62a1314a7543234a7bd0860c2",
+				"dweb:/ipfs/QmPwq7CAQ9bsEWocUYQDcR8M3byky1SBAwfdohdXi2P8bZ"
+			]
+		}
+	},
+	"version": 1
+}
